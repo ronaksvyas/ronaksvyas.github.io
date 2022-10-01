@@ -3,7 +3,7 @@ title: A Reason to live
 description: 
 tags: [poetry,poem,random,feelGood,writing]
 date: 2020-07-12
-categories: [Writing,Poetry,]
+categories: [Writing,Poetry]
 menu: main
 ---
 ![](images/sandakphu-dog.jpg "This is me on a my Trek to Sandakphu")
