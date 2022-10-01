@@ -1,25 +1,17 @@
-+++
-title = "When I decided to buy a Bicycle..."
-description = ""
-tags = [
-    "inspiration",
-    "cycling",
-    "writing",
-    "fitness"
-]
-date = "2020-07-02"
-categories = [
-    "Writing",
-    "Cycling"
-]
-menu = "main"
-+++
+---
+title: When I decided to buy a Bicycle...
+description:
+tags: [inspiration,cycling,writing,fitness]
+date: 2020-07-02
+categories: [Writing,Cycling]
+menu: main
+---
 
-![](/manjit-cycle-dandeli.jpg "One of my friend clicked an awesome picture during our Dandeli trip which I couldn’t resist posting")
+![](images/manjit-cycle-dandeli.jpg "One of my friend clicked an awesome picture during our Dandeli trip which I couldn’t resist posting")
 
 On a sunny weekend morning of February 04, 2017, I decided to get a bicycle. My brain said, “Enough of thinking about this, let’s convert this thought to action”. I went to Decathlon(don’t ask me why I didn’t consider anything else, I won’t answer) and got myself a Btwin Rockrider 340 which put a sizable hole in my pocket. When did bicycles become so expensive? Anyways, I took it for the first ride from the store to my home and it went pretty smooth. Some minor problems with gears were all I faced from my beautiful bicycle.
 
-  ![](/cycle-in-dandeli.jpg "This is from my 2016 cycling trip to Dandeli")
+  ![](images/cycle-in-dandeli.jpg "This is from my 2016 cycling trip to Dandeli")
 
 Ever since that, I haven’t looked back on the decision of buying it.
 
@@ -44,4 +36,4 @@ I feel everyone should try it once. They may or may not find it as exciting as I
 
 **Update**: This is something I wrote in early 2016. I've come a long way since in Cycling and Running. More posts to follow on this.
 
-![](/cycle-blr.jpg "Early morning Bannerghatta ride")
+![](images/cycle-blr.jpg "Early morning Bannerghatta ride")

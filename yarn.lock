@@ -186,7 +186,7 @@
   "resolved" "https://npm.groupondev.com:443/api/npm/npm-release/binary-extensions/-/binary-extensions-2.2.0.tgz"
   "version" "2.2.0"
 
-"bluebird@^3.2.2", "bluebird@^3.5.1", "bluebird@^3.5.2", "bluebird@^3.5.5", "bluebird@^3.7.2":
+"bluebird@^3.2.2", "bluebird@^3.5.0", "bluebird@^3.5.1", "bluebird@^3.5.2", "bluebird@^3.5.5", "bluebird@^3.7.2":
   "integrity" "sha1-nyKcFb4nJFT/qXOs4NvueaGww28="
   "resolved" "https://npm.groupondev.com:443/api/npm/npm-release/bluebird/-/bluebird-3.7.2.tgz"
   "version" "3.7.2"
@@ -947,6 +947,18 @@
     "resolve" "^1.11.0"
     "tildify" "^2.0.0"
 
+"hexo-deployer-git@^3.0.0":
+  "integrity" "sha1-2oL3o0Rd8rITkm3I0DC6VJm2jPM="
+  "resolved" "https://npm.groupondev.com:443/api/npm/npm-release/hexo-deployer-git/-/hexo-deployer-git-3.0.0.tgz"
+  "version" "3.0.0"
+  dependencies:
+    "bluebird" "^3.5.0"
+    "chalk" "^4.0.0"
+    "hexo-fs" "^3.0.1"
+    "hexo-util" "^2.1.0"
+    "moment" "^2.18.0"
+    "nunjucks" "^3.2.1"
+
 "hexo-front-matter@^3.0.0":
   "integrity" "sha1-uaRzxsuRDHP5/qSfUG6YVA/Opss="
   "resolved" "https://npm.groupondev.com:443/api/npm/npm-release/hexo-front-matter/-/hexo-front-matter-3.0.0.tgz"
@@ -1063,7 +1075,7 @@
   "resolved" "https://npm.groupondev.com:443/api/npm/npm-release/hexo-theme-landscape/-/hexo-theme-landscape-0.0.3.tgz"
   "version" "0.0.3"
 
-"hexo-util@^2.0.0", "hexo-util@^2.5.0", "hexo-util@^2.7.0":
+"hexo-util@^2.0.0", "hexo-util@^2.1.0", "hexo-util@^2.5.0", "hexo-util@^2.7.0":
   "integrity" "sha1-E9CSkuedJg2zU5lxCz4Z85lUQ6M="
   "resolved" "https://npm.groupondev.com:443/api/npm/npm-release/hexo-util/-/hexo-util-2.7.0.tgz"
   "version" "2.7.0"
@@ -1486,7 +1498,7 @@
   dependencies:
     "moment" ">= 2.9.0"
 
-"moment@^2.29.1", "moment@>= 2.9.0":
+"moment@^2.18.0", "moment@^2.29.1", "moment@>= 2.9.0":
   "integrity" "sha1-Pb4FKIn+fBsu2Wb8s6dzKJZO8Qg="
   "resolved" "https://npm.groupondev.com:443/api/npm/npm-release/moment/-/moment-2.29.4.tgz"
   "version" "2.29.4"
@@ -1540,7 +1552,7 @@
   "resolved" "https://npm.groupondev.com:443/api/npm/npm-release/normalize-path/-/normalize-path-3.0.0.tgz"
   "version" "3.0.0"
 
-"nunjucks@^3.2.3":
+"nunjucks@^3.2.1", "nunjucks@^3.2.3":
   "integrity" "sha1-GzNhUkcpDpTigmO12FXs52VkijE="
   "resolved" "https://npm.groupondev.com:443/api/npm/npm-release/nunjucks/-/nunjucks-3.2.3.tgz"
   "version" "3.2.3"

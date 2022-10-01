@@ -1,22 +1,12 @@
-+++
-title = "All About DNS"
-description = "We explore some basic concepts about DNS like What exactly is DNS, understand the journey of a request from DNS perspective, see what is DNS Caching and in the end we look at what are different types of DNS Records and how are they useful."
-ogimage = "/dns.png"
-tags = [
-    "internet",
-    "dns",
-    "tech",
-    "technology",
-    "networking",
-    "computers"
-]
-date = "2020-07-25"
-categories = [
-    "Technology",
-    "Networking",
-]
-menu = "main"
-+++
+---
+title : All About DNS
+description : We explore some basic concepts about DNS like What exactly is DNS, understand the journey of a request from DNS perspective, see what is DNS Caching and in the end we look at what are different types of DNS Records and how are they useful.
+ogimage : /dns.png
+tags : [internet,dns,tech,technology,networking,computers]
+date : 2020-07-25
+categories : [Technology,Networking]
+menu : main
+---
 
 
 We all have been hearing this term "DNS" since the early days of our exposure to the Internet. I remember the first time I heard this term was when I was setting an IPV4 Address for my machine on our Hostel WiFi(yes, I was late!). This post will go through major concepts of DNS which will be useful for making your Networking concepts stronger or just reinforce your understanding about the topic.
@@ -29,7 +19,7 @@ All the devices connected to the Internet has a unique IP Address through which 
 
 # What DNS magic happens when I try to access a website?
 
-![](/dns.png "A diagram that depicts the flow of a request for DNS, please excuse my drawing skills :)")
+![](images/dns.png "A diagram that depicts the flow of a request for DNS, please excuse my drawing skills :)")
  
  A diagram that depicts the flow of a request for DNS
 
@@ -90,7 +80,7 @@ There are other kinds of records like TXT Records, SRV Records, etc. which you c
 
 To summarise, we covered what is DNS, what happens when you make a request, in the sense of DNS, what is DNS Cache, and what are different types of DNS Records. For any queries or suggestions, please reach out to me on LinkedIn or Email.
 
-### References: 
+## References:
 
 - [https://www.cloudflare.com/learning/dns/what-is-dns/](https://www.cloudflare.com/learning/dns/what-is-dns/)
 - [https://ns1.com/resources/dns-types-records-servers-and-queries](https://ns1.com/resources/dns-types-records-servers-and-queries)
