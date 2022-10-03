@@ -1,0 +1,56 @@
+#title in header
+title: "Hey Folks."
+
+#main info
+#owner
+owner: "I am Ronak Shailesh Vyas"
+email: ronaksvyas@gmail.com
+info: "A Software Engineer from Gujarat, India"
+#description
+desc: "This is my description"
+
+#menu
+menu:
+  All Posts: /archives
+  About: /about
+
+#index/main page max show posts (in number)
+max_post: 4
+
+# Colors use hex color without #
+# Theme color
+tcolor: 0FA0CE
+
+# Define path to user css
+#(could be also located outside of theme)
+# Relative to source/ directory
+usercss: css/user.css
+
+# social profile at the footer/bottom
+footer: true
+placename: Earth
+placelink: https://en.wikipedia.org/wiki/Earth
+github: https://github.com/ronaksvyas
+linkedin: https://www.linkedin.com/in/ronak-vyas-5a753359/
+twitter: https://twitter.com/ronaksvyas
+instagram: https://instagram.com/ronaksvyas
+
+# Misc
+nanobar: /js/nanobar.min.js
+switch_light: ☀️
+switch_dark: 🌑
+
+# Picture enlargement
+picjs: /js/pic.min.js
+
+# favicon
+favicon: /images/favicon-32x32.png
+# thumbnail
+thumbnail: /images/thumbnail.jpg
+
+article:
+  thumbnail: true
+
+# DISQUS comments (sign up to Disqus to get disqus_shortname)
+disqus_enabled: false
+disqus_shortname: https-adisaktijrs-github-io
