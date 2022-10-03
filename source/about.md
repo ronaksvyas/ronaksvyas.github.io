@@ -4,7 +4,11 @@ date : 2020-07-01
 menu : main
 ---
 
-This is a place where I'd be sharing things I learn and writing on things I care about.
+I am a Software Engineer. I have worked on a variety of Backend as well as Frontend technologies. I'm currently more Frontend focussed.
 
-![](images/ronak-vyas-min.jpg "This is me on a happy day in Sikkim")
+I also enjoy running, hiking, biking and mindless exploration in general. 
+
+I am a big fan of the 🇮🇳 Cricket team.
+
+![](images/ronak-vyas-profile.jpg "This is me on a happy day in LA")
 
