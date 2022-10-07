@@ -13,6 +13,7 @@ desc: "I'm a Software Engineer by trade. This website might not totally be about
 menu:
   All Posts: /archives
   About: /about
+  Resume: /files/Ronak_Vyas_Resume.pdf
 
 #index/main page max show posts (in number)
 max_post: 4
