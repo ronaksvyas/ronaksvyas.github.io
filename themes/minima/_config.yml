@@ -3,7 +3,7 @@ title: "Ronak Vyas"
 
 #main info
 #owner
-owner: "I am Ronak Shailesh Vyas"
+owner: "Hey there! I am Ronak Shailesh Vyas"
 email: ronaksvyas@gmail.com
 info: "A Software Engineer from Gujarat, India"
 #description
@@ -13,6 +13,7 @@ desc: "I'm a Software Engineer by trade. This website might not totally be about
 menu:
   All Posts: /archives
   About: /about
+  Projects: /post/projects
   Resume: /files/Ronak_Vyas_Senior_Frontend_7yrs.pdf
 
 #index/main page max show posts (in number)
