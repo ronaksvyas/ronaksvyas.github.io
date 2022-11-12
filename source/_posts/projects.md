@@ -20,6 +20,18 @@ It is made using [React](https://reactjs.org/), [Typescript](https://www.typescr
 
 ![](/images/wordle.png "Screenshot of the game")
 
+# 2. TicTacToe Clone
+
+I made a clone of the popular game, TicTacToe as an short quick exercise. You can access the game at [ronakvyas.com/tictactoe-react](https://ronakvyas.com/tictactoe-react/).
+
+You can see the source code on my Github: [https://github.com/ronaksvyas/tictactoe-react](https://github.com/ronaksvyas/tictactoe-react). 
+
+Please raise an issue if you find one on this repository.
+
+It is made using [React](https://reactjs.org/) and deployed using Github Pages
+
+![](/images/tictactoe.png "Screenshot of the game")
+
 ---
 
 
