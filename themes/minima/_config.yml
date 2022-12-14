@@ -14,7 +14,7 @@ menu:
   All Posts: /archives
   About: /about
   Projects: /post/projects
-  Resume: /files/Ronak_Vyas_Senior_Frontend_7yrs.pdf
+  Resume: /files/Ronak_Vyas_Resume.pdf
 
 #index/main page max show posts (in number)
 max_post: 4
