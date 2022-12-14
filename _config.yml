@@ -30,6 +30,15 @@ code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
 
+#sitemap
+sitemap:
+  path: 
+    - sitemap.xml
+    - sitemap.txt
+  rel: false
+  tags: true
+  categories: true
+
 # Writing
 new_post_name: :title.md # File name of new posts
 default_layout: post
