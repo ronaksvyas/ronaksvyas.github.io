@@ -221,13 +221,6 @@
   </url>
   
   <url>
-    <loc>https://ronakvyas.com/categories/Frontend/</loc>
-    <lastmod>2022-12-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://ronakvyas.com/categories/Writing/Poetry/</loc>
     <lastmod>2022-12-14</lastmod>
     <changefreq>weekly</changefreq>
@@ -243,6 +236,13 @@
   
   <url>
     <loc>https://ronakvyas.com/categories/Writing/Cycling/</loc>
+    <lastmod>2022-12-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://ronakvyas.com/categories/Frontend/</loc>
     <lastmod>2022-12-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
