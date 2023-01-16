@@ -11,40 +11,36 @@
   <meta charset="utf-8">
 
   
-  <title>Ronak Shailesh Vyas - I write about stuff</title>
+  <title>Flatten a nested array using .reduce method in Javascript</title>
   
   <link rel="sitemap" href="https://ronakvyas.comsitemap.xml,sitemap.txt" />
   
-  <link rel="canonical" href="https://ronakvyas.com/">
+  <link rel="canonical" href="https://ronakvyas.com/post/flatten-nested-array-javascript/">
   
-  <meta name="description" content="">
+  <meta name="description" content="const arr &amp;#x3D; [[1],[2],[3],[[4,5],[6,7],[[8,9],[10,11],[12,13]]]]; const initialValue &amp;#x3D; []; const flatten &amp;#x3D; (arr) &amp;#x3D;&amp;gt; arr.reduce((">
   
   
   <meta name="author" content="Ronak Shailesh Vyas">
   
   
-  <meta property="og:image" content="https://ronakvyas.com/images/thumbnail.jpg">
-  
   
   <meta property="og:site_name" content="Ronak Shailesh Vyas - I write about stuff" />
   <meta property="og:type" content="article" />
-  <meta property="og:title" content="Ronak Shailesh Vyas - I write about stuff" />
+  <meta property="og:title" content="Flatten a nested array using .reduce method in Javascript" />
   
-  <meta property="og:description" content="">
+  <meta property="og:description" content="const arr &amp;#x3D; [[1],[2],[3],[[4,5],[6,7],[[8,9],[10,11],[12,13]]]]; const initialValue &amp;#x3D; []; const flatten &amp;#x3D; (arr) &amp;#x3D;&amp;gt; arr.reduce((">
   
-  <meta property="og:url" content="https://ronakvyas.com/" />
+  <meta property="og:url" content="https://ronakvyas.com/post/flatten-nested-array-javascript/" />
 
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Ronak Shailesh Vyas - I write about stuff">
+  <meta name="twitter:title" content="Flatten a nested array using .reduce method in Javascript">
   
-  <meta name="twitter:description" content="">
-  
-  
-  
-  <meta name="twitter:image" content="https://ronakvyas.com/images/thumbnail.jpg">
+  <meta name="twitter:description" content="const arr &amp;#x3D; [[1],[2],[3],[[4,5],[6,7],[[8,9],[10,11],[12,13]]]]; const initialValue &amp;#x3D; []; const flatten &amp;#x3D; (arr) &amp;#x3D;&amp;gt; arr.reduce((">
   
   
-  <meta name="twitter:url" content="https://ronakvyas.com/" />
+  
+  
+  <meta name="twitter:url" content="https://ronakvyas.com/post/flatten-nested-array-javascript/" />
 
   <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -204,76 +200,20 @@
 </div>
 
         <div class="trans">
-          <div class="row">
-  <div class="column">
-    <!-- Main information, edit it on theme/_config.yml -->
-    <h2 class="mb-2">Hey there! I am Ronak Shailesh Vyas</h2>
-    <p>A Software Engineer from Gujarat, India</p>
-    <p>I&#39;m a Software Engineer by trade. This website might not totally be about that though ;)</p>
-  </div>
-</div>
+            <h2>Flatten a nested array using .reduce method in Javascript</h2>
 
-<h3>Recent Posts</h3>
+  <pre><code><pre class="line-numbers language-none"><code class="language-none">const arr &#x3D; [[1],[2],[3],[[4,5],[6,7],[[8,9],[10,11],[12,13]]]];
+const initialValue &#x3D; [];
+const flatten &#x3D; (arr) &#x3D;&gt; arr.reduce((flattened,toFlatten) &#x3D;&gt; &#123;
+  return flattened.concat(Array.isArray(toFlatten) ? flatten(toFlatten): toFlatten);    
+&#125;, []); 
+console.log(flatten(arr));<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+</code></pre>
+<p>This is a very interesting one liner to flatten an array. We’re using reduce method on the array and inside the reducer function, we check if the <code>toFlatten</code> argument is an array or not. If not, then we call the function recursively. </p>
 
+  <p><a class="classtest-link" href="/tags/array/" rel="tag">array</a>, <a class="classtest-link" href="/tags/javascript/" rel="tag">javascript</a>, <a class="classtest-link" href="/tags/node/" rel="tag">node</a>, <a class="classtest-link" href="/tags/tech/" rel="tag">tech</a>, <a class="classtest-link" href="/tags/technology/" rel="tag">technology</a> — Jan 1, 2022</p>
+  
 
-<div class="row">
-
-  <div class="three columns left lit">
-    <p class="bottom">Oct 18, 2022</p>
-  </div>
-  <div class="nine columns left mb-3">
-    <a href="/post/projects/" >
-      
-        My Personal Projects
-      
-    </a>
-  </div>
-</div>
-
-<div class="row">
-
-  <div class="three columns left lit">
-    <p class="bottom">Jan 1, 2022</p>
-  </div>
-  <div class="nine columns left mb-3">
-    <a href="/post/flatten-nested-array-javascript/" >
-      
-        Flatten a nested array using .reduce method in Javascript
-      
-    </a>
-  </div>
-</div>
-
-<div class="row">
-
-  <div class="three columns left lit">
-    <p class="bottom">Jan 1, 2022</p>
-  </div>
-  <div class="nine columns left mb-3">
-    <a href="/post/tilde-and-carat/" >
-      
-        Tilde(~) and Carat(^) usage in package.json
-      
-    </a>
-  </div>
-</div>
-
-<div class="row">
-
-  <div class="three columns left lit">
-    <p class="bottom">Jul 25, 2020</p>
-  </div>
-  <div class="nine columns left mb-3">
-    <a href="/post/all-about-dns/" >
-      
-        All About DNS
-      
-    </a>
-  </div>
-</div>
-
-
-<h4> <a href="/archives">All Posts</a></h4>
 
         </div>
         <div class="row mt-2">
