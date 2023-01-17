@@ -17,7 +17,7 @@ menu:
   Resume: /files/Ronak_Vyas_Resume.pdf
 
 #index/main page max show posts (in number)
-max_post: 4
+max_post: 20
 
 # Colors use hex color without #
 # Theme color
