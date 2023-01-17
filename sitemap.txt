@@ -12,15 +12,15 @@ https://ronakvyas.com/tags/poem/
 https://ronakvyas.com/tags/random/
 https://ronakvyas.com/tags/feelGood/
 https://ronakvyas.com/tags/writing/
-https://ronakvyas.com/tags/internet/
-https://ronakvyas.com/tags/dns/
 https://ronakvyas.com/tags/tech/
 https://ronakvyas.com/tags/technology/
-https://ronakvyas.com/tags/networking/
-https://ronakvyas.com/tags/computers/
 https://ronakvyas.com/tags/javascript/
 https://ronakvyas.com/tags/node/
 https://ronakvyas.com/tags/array/
+https://ronakvyas.com/tags/internet/
+https://ronakvyas.com/tags/dns/
+https://ronakvyas.com/tags/networking/
+https://ronakvyas.com/tags/computers/
 https://ronakvyas.com/tags/inspiration/
 https://ronakvyas.com/tags/cycling/
 https://ronakvyas.com/tags/fitness/
@@ -35,6 +35,6 @@ https://ronakvyas.com/categories/Technology/
 https://ronakvyas.com/categories/Writing/Cycling/
 https://ronakvyas.com/categories/Writing/Poetry/
 https://ronakvyas.com/categories/Frontend/
-https://ronakvyas.com/categories/Technology/Networking/
 https://ronakvyas.com/categories/Technology/Javascript/
+https://ronakvyas.com/categories/Technology/Networking/
 https://ronakvyas.com/categories/Frontend/Technology/
